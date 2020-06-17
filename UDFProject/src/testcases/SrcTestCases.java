@@ -42,32 +42,7 @@ public class SrcTestCases extends UDFUtility {
 //		
 //	}
 	
-	//@Test(priority=1)
-	public void LoginPE() throws IOException, InterruptedException {
 		
-		OpenBrowser(prop.getProperty("url"));
-
-		selectValueFromDropdown(prop.getProperty("company_xpath"), prop.getProperty("planningcompany"));
-		
-		setText(prop.getProperty("username_xpath"), prop.getProperty("username"));
-
-		setText(prop.getProperty("password_xpath"), prop.getProperty("password"));
-
-		click(prop.getProperty("loginclick"));
-			
-		try
-		{
-		if(isDisplayed(prop.getProperty("cross_xpath")))
-		{
-			click(prop.getProperty("cross_xpath"));
-		}
-		}catch(Exception e)
-		{
-			checkTestCase(prop.getProperty("actual"));			
-		}
-		checkTestCase(prop.getProperty("actual"));
-	}
-	
     @Test(priority=1)
 	public void LoginSE() throws InterruptedException
 	{
