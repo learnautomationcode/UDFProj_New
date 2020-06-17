@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49546" started-at="2020-06-17T06:44:12Z" finished-at="2020-06-17T06:45:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49546" started-at="2020-06-17T06:44:12Z" finished-at="2020-06-17T06:45:01Z">
+      <class name="testcases.UDFDemo">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.UDFDemo@4d50efb8]" name="init" is-config="true" duration-ms="16" started-at="2020-06-17T06:44:12Z" finished-at="2020-06-17T06:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="LoginSE()[pri:1, instance:testcases.UDFDemo@4d50efb8]" name="LoginSE" duration-ms="33024" started-at="2020-06-17T06:44:12Z" finished-at="2020-06-17T06:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSE -->
+        <test-method status="PASS" signature="addForecastDemandGroup()[pri:2, instance:testcases.UDFDemo@4d50efb8]" name="addForecastDemandGroup" duration-ms="15631" started-at="2020-06-17T06:44:45Z" finished-at="2020-06-17T06:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addForecastDemandGroup -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.UDFDemo@4d50efb8]" name="init" is-config="true" duration-ms="0" started-at="2020-06-17T06:44:45Z" finished-at="2020-06-17T06:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- testcases.UDFDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
